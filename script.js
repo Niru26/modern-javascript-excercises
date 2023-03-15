@@ -41,4 +41,25 @@
 // title.style.color = 'rgb(235, 169, 0)';
 
 const change_class = document.querySelector(`div > p.error`)
-console.log(change_class);
+// console.log(change_class.classList);
+// change_class.classList.remove('error')
+// console.log(change_class.classList);
+// change_class.classList.add('success')
+
+const initial_list = document.querySelectorAll('div p');
+console.log(initial_list);
+
+initial_list.forEach(tag => {
+    let i = 1
+    console.log(++i);
+    if (tag.innerText.includes('error')) {
+        tag.classList.add('error')
+    }
+    if (tag.innerText.includes('success')) {
+        tag.classList.add('success')
+    }
+})
+
+const title = document.querySelector('.title');
+title.classList.toggle('test');
+// title.classList.toggle('test');

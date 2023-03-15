@@ -9,6 +9,10 @@ a {
     display: inline-block;
 }
 
+p {
+    display: block;
+}
+
 html {
     font-family: sans-serif;
     font-weight: bolder;
@@ -17,15 +21,11 @@ html {
 }
 
 .success {
-    padding: 1rem;
+    padding: 0 0.3rem 0.3rem;
     color: rgb(235, 169, 0);
-    border: 1px solid rgb(235, 169, 0);
-    display: inline-block;
 }
 
 .error {
-    padding: 1rem;
+    padding: 0 0.3rem 0.3rem;
     color: rgb(185, 42, 53);
-    border: 1px solid rgb(185, 42, 53);
-    display: inline-block;
 }

@@ -40,18 +40,16 @@
 // title.style.marginTop = '10px';
 // title.style.color = 'rgb(235, 169, 0)';
 
-const change_class = document.querySelector(`div > p.error`)
 // console.log(change_class.classList);
 // change_class.classList.remove('error')
 // console.log(change_class.classList);
 // change_class.classList.add('success')
 
+const change_class = document.querySelector(`div > p.error`)
 const initial_list = document.querySelectorAll('div p');
 console.log(initial_list);
 
 initial_list.forEach(tag => {
-    let i = 1
-    console.log(++i);
     if (tag.innerText.includes('error')) {
         tag.classList.add('error')
     }

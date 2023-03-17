@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0 0.02rem 0.5rem;
     box-sizing: border-box;
     color: rgb(214, 197, 158);
 }
@@ -21,11 +20,9 @@ html {
 }
 
 .success {
-    padding: 0 0.3rem 0.3rem;
     color: rgb(235, 169, 0);
 }
 
 .error {
-    padding: 0 0.3rem 0.3rem;
     color: rgb(185, 42, 53);
 }
